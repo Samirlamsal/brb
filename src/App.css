@@ -1,38 +1,461 @@
-.App {
+
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Playfair Display';
+  scroll-behavior: smooth;
+
+}
+
+.landingpage {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+    url("images/image.png");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  min-height: 105vh;
+  overflow: hidden;
+}
+
+.navigation{
+  font-family:sans-serif;
+
+}
+
+
+
+
+/* Whu us */
+
+
+
+.whyus{
+  background-color: rgba(37, 77, 77, 0.2);
+  padding:40px 0;
+}
+
+.whyus .title h1{
+  font-family:'Playfair Display';
+  font-style: normal;
+  text-align: center;
+  color: #2F2E2E;
+  font-size: 35px;
+  letter-spacing: 0.06em;
+
+}
+
+.whyus .content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding:40px 0;
+
+}
+
+.whyus .content .wcard{
+  width:350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding:50px;
+
+
+}
+
+.whyus .content .wcard h2{
+  letter-spacing: 0.06em;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 36px;
+  text-align: center;
+  color: #2F2E2E;
+
+}
+
+.whyus .content .wcard p{
+  letter-spacing: 0.05em;
+  
+}
+
+
+.whyus .wcard h3{
+  background-color: #254D4D;
+  padding:5px;
+  height:50px;
+  width:50px;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whyus .wcard .icon{
+  color:white;
+  font-size: 30px;
+}
+
+/* Services */
+
+
+
+.services{
+  padding:50px 0px;
+}
+
+
+.ourservices{
+  text-align: center;
+  padding:10px 0;
+}
+
+.ourservices h1{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  color: #2F2E2E;
+  letter-spacing: 0.03em;
+}
+
+
+.services .title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.services .title h1{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  padding:0 10px;
+  letter-spacing: 0.03em;
+  opacity: 0.7;
+
+}
+
+.services .title h1:hover{
+  cursor: pointer;
+}
+
+.services .construction, .services .architecture{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding:40px 0;
+
+}
+
+.services .construction .scard, .services .architecture .card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:25%;
+  text-align: center;
+  padding:20px;
+  background-color: #254D4D;
+  height:450px;
+  width:300px;
+  border-radius: 15px;
+  color:white;
+  margin:40px 0;
+  box-shadow: 3px 3px 3px 3px #254D4D;
+
+}
+
+.services .construction .scard h2, .services .architecture .scard h2{
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  font-size: 18px;
+  line-height: 0px;
+  color:white;
+  padding:10px;
+}
+
+.services .construction .scard h3,.services .architecture .carscardd h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 0.04em;
+  font-weight: bold;
+  
+
+
+}
+
+.services .construction .scard p, .services .architecture .scard p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+
+}
+
+.services .construction ul li,.services .architecture ul li{
+  letter-spacing: 0.04em;
+  list-style: none;
+  line-height: 25px;
+  list-style:circle;
+  list-style-position: inside;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 35px;
+
+}
+
+.services .construction .button button, .services .architecture .button button{
+  border:none;
+  background: transparent;
+  color:white;
+  font-family: Roboto;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+
+}
+
+.services .construction .button button:hover, .services .architecture .button button:hover{
+  cursor: pointer;
+  opacity: 0.7;
+
+
+}
+
+.landingpage .title{
+  text-align: center;
+  padding-top: 6%;
+
+}
+
+.landingpage .title h1, h2{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 107px;
+  text-align: center;
+  color: #2F2E2E;
+  letter-spacing: 0.05em;
+}
+
+.landingpage .landingdetailscontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:100px 0;
+}
+
+.landingpage .landingdetails{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255,255,255,0.9);
+  width:65%;
+  border-radius: 20px;
+  padding:20px;
+  box-shadow: 3px 3px 5px 5px rgba(255, 255, 255, .2);
+
+}
+
+.landingpage .landingdetails:hover{
+  transform: scale(1.02);
+  transition: all 0.3s ease-in-out
+}
+
+
+
+.landingpage .landingdetails .lcard{
+  width:300px;
+  display: flex;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.landingpage .landingdetails .llogo{
+  font-size: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+.landingpage .landingdetails .data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:0 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.landingpage .landingdetails .data h3{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #2F2E2E;
+
+ 
+}
+
+
+.landingpage .landingdetails .data p{
+  font-family:'Playfair Display';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #2F2E2E;
+  letter-spacing: 0.07em;
+}
+
+
+/* Projects */
+
+.projects{
+  padding:40px 90px;
+}
+
+
+.projects .pheader{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  flex-wrap: wrap;
+
+
+}
+
+.projects .tags{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projects .tags h3{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #2F2E2E;
+  padding:0 15px;
+  letter-spacing: 0.04em;
+
+}
+
+.projects .tags h3:hover{
+  cursor: pointer;
+}
+
+.projects .pheader h1{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #2F2E2E;
+  letter-spacing: 0.04em;
+
+}
+
+
+.projects .pcard img{
+  width:100%;
+
+}
+
+.projects .pcontent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding:40px 0px;
+}
+
+.projects .pcontent .pcard{
+  width:350px;
+  margin:35px 0;
+}
+
+.projects .pcontent .pcard .image{
+  overflow: hidden;
+  box-shadow: 3px 3px 3px 5px rgb(230, 227, 227);
+}
+
+.projects .pcard .pcarddata{
+  padding:15px;
+  text-align: center;
+}
+
+
+.projects .pcard .pcarddata h2{
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  color: #2F2E2E;
+  letter-spacing: 0.04em;
+  line-height: 20px;
+  text-align: center;
+
+
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding:50px;
+  background-color: #2E2F32;
+  color:#FAFAFA;
+  box-shadow:5px 5px 5px 5px #2E2F32;
+  
+
+}
+
+.footer .fcard{
+  width:20%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start
+  
 }
 
-.App-link {
-  color: #61dafb;
+.footer .fcard h1{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #FAFAFA;
 }
+.footer .fcard p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #FAFAFA;
+  letter-spacing: 0.04em;;
+  line-height: 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
