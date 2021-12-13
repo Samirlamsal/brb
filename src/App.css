@@ -120,7 +120,7 @@
   font-weight: bold;
   font-size: 45px;
   text-align: center;
-  color: #2F2E2E;
+  color: #254D4D;
   letter-spacing: 0.03em;
 }
 
@@ -138,7 +138,7 @@
   font-size: 18px;
   text-align: center;
   text-transform: uppercase;
-  padding:0 10px;
+  margin:10px 10px;
   letter-spacing: 0.03em;
   opacity: 0.7;
 
@@ -157,7 +157,7 @@
 
 }
 
-.services .construction .scard, .services .architecture .card{
+.services .construction .scard, .services .architecture .scard{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -167,7 +167,7 @@
   background-color: #254D4D;
   height:450px;
   width:300px;
-  border-radius: 15px;
+  border-radius: 2px;
   color:white;
   margin:40px 0;
   box-shadow: 3px 3px 3px 3px #254D4D;
@@ -184,7 +184,7 @@
   padding:10px;
 }
 
-.services .construction .scard h3,.services .architecture .carscardd h3{
+.services .construction .scard h3,.services .architecture .scard h3{
   font-family: Roboto;
   font-style: normal;
   font-size: 30px;
@@ -251,7 +251,7 @@
   font-size: 60px;
   line-height: 90px;
   text-align: center;
-  color: #2F2E2E;
+  color: #254D4D;
   letter-spacing: 0.05em;
 }
 
@@ -270,8 +270,8 @@
   align-items: center;
   background-color: rgb(255,255,255,0.9);
   width:65%;
-  border-radius: 20px;
-  padding:20px;
+  border-radius: 10px;
+  padding:10px;
   box-shadow: 3px 3px 5px 5px rgba(255, 255, 255, .2);
 
 }
@@ -284,7 +284,7 @@
 
 
 .landingpage .landingdetails .lcard{
-  width:250px;
+  width:220px;
   display: flex;
   text-align: center;
 }
@@ -292,7 +292,8 @@
 
 
 .landingpage .landingdetails .llogo{
-  font-size: 60px;
+  font-size: 55px;
+  color:#254D4D;
 }
 
 
@@ -303,7 +304,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding:0 5px;
 }
 
 
@@ -313,7 +313,7 @@
   font-weight: bold;
   font-size: 22px;
   text-align: center;
-  color: #2F2E2E;
+  color: #254D4D;
 
  
 }
@@ -326,8 +326,9 @@
   font-size: 14px;
   line-height: 18px;
   text-align: center;
-  color: #2F2E2E;
+  color: #254D4D;
   letter-spacing: 0.07em;
+  width:90%;
 }
 
 
@@ -402,6 +403,10 @@
 .projects .pcontent .pcard .image{
   overflow: hidden;
   box-shadow: 3px 3px 3px 5px rgb(230, 227, 227);
+}
+
+.projects .pcontent .pcard .image:hover{
+  cursor:pointer;
 }
 
 .projects .pcard .pcarddata{

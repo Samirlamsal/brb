@@ -13,7 +13,7 @@ function Navig() {
                     <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                         <ReactBootStrap.Nav className="mr-auto">
                         </ReactBootStrap.Nav>
-                        <ReactBootStrap.Nav style={{ 'text-align': 'right', 'padding': '35px 0' }}>
+                        <ReactBootStrap.Nav style={{ 'text-align': 'right', 'padding': '35px 0', 'font-size': '14px', 'font-weight': 'bold' }}>
                             <ReactBootStrap.Nav.Link href="#projects" style={{ 'font-family': 'inter', 'padding': '0 35px' }}>PROJECTS</ReactBootStrap.Nav.Link>
                             <ReactBootStrap.Nav.Link href="#pricing" style={{ 'font-family': 'inter', 'padding': '0 35px' }}>PRICING</ReactBootStrap.Nav.Link>
                             <ReactBootStrap.Nav.Link href="#about" style={{ 'font-family': 'inter', 'padding': '0 35px' }}>ABOUT</ReactBootStrap.Nav.Link>
