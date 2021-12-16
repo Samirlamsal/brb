@@ -8,7 +8,7 @@ function Navig() {
         <>
             <div className="navigation">
                 <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="transparent">
-                    <ReactBootStrap.Navbar.Brand href="#home" style={{ 'font-family': 'inter', 'padding': '15px 15px' }}>LoGo</ReactBootStrap.Navbar.Brand>
+                    <ReactBootStrap.Navbar.Brand href="/" style={{ 'font-family': 'inter', 'padding': '15px 15px' }}>LoGo</ReactBootStrap.Navbar.Brand>
                     <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
                         <ReactBootStrap.Nav className="mr-auto">

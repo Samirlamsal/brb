@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 
 
 const Services = () => {
@@ -41,7 +42,7 @@ const Services = () => {
                             <li>It is a long established</li>
                         </ul>
                         <div className="button">
-                            <button>Get started today</button>
+                            <Link to='/construction'><button>Learn More</button></Link>
                         </div>
                     </div>
                     <div data-aos="fade-down" className="scard">
@@ -55,7 +56,7 @@ const Services = () => {
                             <li>It is a long established</li>
                         </ul>
                         <div className="button">
-                            <button>Get started today</button>
+                            <Link to='/construction'><button>Learn More</button></Link>
                         </div>
                     </div>
                     <div data-aos="fade-down" className="scard">
@@ -69,7 +70,7 @@ const Services = () => {
                             <li>It is a long established</li>
                         </ul>
                         <div className="button">
-                            <button>Get started today</button>
+                            <Link to='/construction'><button>Learn More</button></Link>
                         </div>
                     </div>
                 </div> :
@@ -85,7 +86,7 @@ const Services = () => {
                             <li>Architecture Properties 4</li>
                         </ul>
                         <div className="button">
-                            <button>Get started today</button>
+                            <Link to='/architecture'><button>Learn More</button></Link>
                         </div>
                     </div>
                     <div className="scard">
@@ -99,7 +100,7 @@ const Services = () => {
                             <li>Architecture Properties 4</li>
                         </ul>
                         <div className="button">
-                            <button>Get started today</button>
+                            <Link to='/architecture'><button>Learn More</button></Link>
                         </div>
                     </div>
                     <div className="scard">
@@ -113,7 +114,7 @@ const Services = () => {
                             <li>Architecture Properties 4</li>
                         </ul>
                         <div className="button">
-                            <button>Get started today</button>
+                            <Link to='/architecture'><button>Learn More</button></Link>
                         </div>
                     </div>
 

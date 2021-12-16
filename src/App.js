@@ -8,6 +8,7 @@ import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Architecture from './pages/architecture';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route exact path='/' element={<Homepage />}></Route>
+          <Route exact path='/architecture' element={<Architecture />}></Route>
         </Routes>
       </div>
     </Router>
