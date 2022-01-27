@@ -5,6 +5,8 @@ import Navig from '../components/navig'
 import Landingpage2 from '../components/landingpage2';
 import Projects from '../components/projects';
 import Footer from '../components/footer';
+import Contact from '../components/contact';
+
 
 
 
@@ -18,7 +20,9 @@ const Homepage = () => {
             <Whyus />
             <Services />
             <Projects />
+            <Contact />
             <Footer />
+
         </div>
     )
 }
