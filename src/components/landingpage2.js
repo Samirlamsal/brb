@@ -26,20 +26,23 @@ const Landingpage2 = () => {
                     <h2>Quality services at affordable price.</h2>
                     <p>Let us serve you.</p>
                     <div className='landingbox'>
-                        <Link className='hover' style={{ 'textDecoration': 'none', 'color': 'white', 'width': '100%', 'borderRadius': '5px' }} to='/construction'><div className='innerbox'>
-                            <h3><div className='icon'>
-                                <MdConstruction className='llogo' />
-                            </div>Construction</h3>
-                            <p>Change your home inside and out</p>
-                        </div></Link>
+                        <Link className='hover' style={{ 'textDecoration': 'none', 'color': 'white', 'width': '100%', 'borderRadius': '5px' }} to='/construction'>
+                            <div className='innerbox'>
+                                <h3><div className='icon'>
+                                    <MdConstruction className='llogo' />
+                                </div>Construction</h3>
+                                <p>Change your home inside and out</p>
+                            </div>
+                        </Link>
 
-                        <Link className='hover' style={{ 'textDecoration': 'none', 'color': 'white', 'borderRadius': '5px' }} to='/architecture'><div className='innerbox'>
+                        <Link className='hover' style={{ 'textDecoration': 'none', 'color': 'white', 'borderRadius': '5px' }} to='/architecture'>
+                            <div className='innerbox'>
 
-                            <h3><div className='icon'>
-                                <MdArchitecture className='llogo' />
-                            </div>Architecture</h3>
-                            <p>Change your home inside and out</p>
-                        </div>
+                                <h3><div className='icon'>
+                                    <MdArchitecture className='llogo' />
+                                </div>Architecture</h3>
+                                <p>Change your home inside and out</p>
+                            </div>
                         </Link>
                     </div>
 
