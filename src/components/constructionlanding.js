@@ -1,9 +1,9 @@
 import React from 'react';
 import Navig from './navig';
 
-const Architecturelanding = (props) => {
+const Constructionlanding = (props) => {
     return (
-        <div className='al' id='al'>
+        <div className='al'>
             <Navig />
             <div className='content' data-aos="fade-down">
                 <h1>Best</h1>
@@ -14,4 +14,4 @@ const Architecturelanding = (props) => {
     )
 }
 
-export default Architecturelanding;
+export default Constructionlanding;

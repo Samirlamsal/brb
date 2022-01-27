@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 
 }
-
+/* 
 .landingpage {
   background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
     url("images/image.png");
@@ -25,7 +25,7 @@
   background-position:center;
   min-height: 105vh;
   overflow: hidden;
-}
+} */
 
 .navigation{
   font-family:sans-serif;
@@ -40,7 +40,7 @@
 
 
 .whyus{
-  background-color: rgba(37, 77, 77, 0.2);
+  background-color: rgb(221, 233, 233);
   padding:40px 0;
 }
 
@@ -248,7 +248,7 @@
 
 }
 
-.landingpage .title{
+/* .landingpage .title{
   text-align: center;
   padding-top: 5%;
 
@@ -259,7 +259,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
-  line-height: 90px;
+  line-height: 70px;
   text-align: center;
   color: #254D4D;
   letter-spacing: 0.05em;
@@ -283,7 +283,7 @@
   border-radius: 10px;
   padding:10px;
   box-shadow: 3px 3px 5px 5px rgba(255, 255, 255, .2);
-
+  margin-top: 60px;
 }
 
 .landingpage .landingdetails:hover{
@@ -297,6 +297,7 @@
   width:220px;
   display: flex;
   text-align: center;
+  align-items: center;
 }
 
 
@@ -304,6 +305,7 @@
 .landingpage .landingdetails .llogo{
   font-size: 55px;
   color:#254D4D;
+
 }
 
 
@@ -320,10 +322,12 @@
 .landingpage .landingdetails .data h3{
   font-family: 'Playfair Display';
   font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 20px;
   text-align: center;
   color: #254D4D;
+  letter-spacing: 0.04em;
+
 
  
 }
@@ -333,13 +337,13 @@
   font-family:'Playfair Display';
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
   text-align: center;
   color: #254D4D;
   letter-spacing: 0.07em;
   width:90%;
-}
+} */
 
 
 /* Projects */
@@ -498,6 +502,7 @@
   color: #254D4D;
   line-height: 60px;
   letter-spacing: 0.04em;
+  text-shadow: beige;
 
 }
 
@@ -510,4 +515,244 @@
   color: #254D4D;
   padding:25px 0;
   letter-spacing: 0.04em;
+  text-shadow: beige;
+
+}
+
+
+/* Experience */
+
+
+.exp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:40px 0;
+}
+
+.exp h1{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #254D4D;
+  text-align: center;
+
+}
+
+.aservices .title{
+  padding:30px 50px;
+  color: #254D4D;
+  
+
+}
+
+.aservices .title h1{
+  font-size: 40px;
+}
+
+.aservices .a{
+  padding:0px 50px;
+  
+}
+
+.aservices .a .b h2{
+  text-align: left;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #18191F;
+  letter-spacing: 0.0em;;
+
+}
+
+.aservices .a .b .points ul{
+  padding:0 25px;
+}
+
+.aservices .a .b .points ul li{
+  letter-spacing: 0.04em;
+  list-style: none;
+  line-height: 25px;
+  list-style:circle;
+  list-style-position: inside;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+
+.aservices .a .button{
+  padding:20px 0;
+
+
+}
+
+
+.aservices .a button{
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #254D4D;
+  border-radius: 5px;
+  padding:10px 15px;
+  letter-spacing: 0.04em;
+}
+
+.contactbutton{
+  background-color: #1C3988;
+  width:140px;
+  text-align: center;
+  color:white;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+
+
+.landingpage2{
+  overflow: hidden;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)),
+  url("./images/bg2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: fixed;
+font-family: "Inter", sans-serif;
+min-height: 100vh;
+background-color: #f5f4f4;
+}
+.landingpagecontent{
+  padding-top: 60px;
+}
+
+
+.landingpagecontent h1{
+  font-family: Playflair Display;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  padding:10px 0;
+  font-size: 25px;
+  color:rgb(63, 62, 62);
+}
+.landingpagecontent h2{
+  font-family: Mulish;
+  font-weight: 800;
+  color:rgb(63, 62, 62);
+  text-align: left;
+  font-size: 40px;
+
+}
+.landingpagecontent p{
+  padding:10px 0;
+  color:rgb(63, 62, 62);
+
+}
+
+.landingpagecontent .button button{
+  background-color: rgb(63, 62, 62);
+  color:white;
+  padding:15px 70px;
+  border:none;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Mulish;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.landingpageall{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-left: 55px;
+}
+
+.landingpageall .photo .image{
+  padding-right: 30px;
+}
+
+
+.landingpageall .line{
+  border:1px solid rgb(63, 62, 62);
+
+  width:80px;
+}
+
+.landingpageall img{
+  height:60vh;
+}
+
+
+.landingpage2 .landingbox{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  flex-wrap: nowrap;
+  align-items:flex-end;
+  background-color: rgb(63, 62, 62);
+  color:white;
+  border:none;
+  border-radius: 5px;
+  
+  
+}
+
+.landingpage2 .landingbox .innerbox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  transition-duration: 0.5s;
+  justify-content: center;
+  text-align: left;
+  padding:10px 10px;
+  width:100%;
+
+
+
+
+
+}
+
+.landingpage2 .landingbox .innerbox:nth-child(2){
+  border-left: 1px solid white;
+}
+
+.landingpage2 .landingbox .hover:hover{
+  cursor: pointer;
+  background-color: rgb(75, 73, 73);
+}
+
+
+
+.llogo{
+  margin-right: 5px;
+
+}
+
+.innerbox h3{
+  font-size:20px;
+  padding:0;
+  font-family: Mulish;
+  display: inline-flex;
+
+}
+
+.innerbox p{
+  color: rgb(204, 200, 200);
+  letter-spacing: 0.03em;
+  padding:0px 25px;
+  font-family: Mulish;
+  width:300px;
+
+
+  
+
 }

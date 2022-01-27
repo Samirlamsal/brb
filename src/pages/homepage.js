@@ -2,7 +2,7 @@ import React from 'react';
 import Services from '../components/services'
 import Whyus from '../components/whyus'
 import Navig from '../components/navig'
-import Landingpage from '../components/landingpage';
+import Landingpage2 from '../components/landingpage2';
 import Projects from '../components/projects';
 import Footer from '../components/footer';
 
@@ -14,7 +14,7 @@ import Footer from '../components/footer';
 const Homepage = () => {
     return (
         <div className="sevices">
-            <Landingpage />
+            <Landingpage2 />
             <Whyus />
             <Services />
             <Projects />

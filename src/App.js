@@ -9,6 +9,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Architecture from './pages/architecture';
+import Construction from './pages/construction';
+import ScrollToTop from "./components/scrolltotop";
+
+
 
 
 function App() {
@@ -17,12 +21,15 @@ function App() {
   }, [])
   return (
     <Router>
-      <div className="App">
-        <Routes>
-          <Route exact path='/' element={<Homepage />}></Route>
-          <Route exact path='/architecture' element={<Architecture />}></Route>
-        </Routes>
-      </div>
+      <ScrollToTop>
+        <div className="App">
+          <Routes>
+            <Route exact path='/' element={<Homepage />}></Route>
+            <Route exact path='/architecture' element={<Architecture />}></Route>
+            <Route exact path='/construction' element={<Construction />}></Route>
+          </Routes>
+        </div>
+      </ScrollToTop>
     </Router>
   );
 }
