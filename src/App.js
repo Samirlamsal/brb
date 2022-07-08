@@ -1,4 +1,6 @@
 import Homepage from './pages/homepage'
+import Calculationpage from './pages/calculationpage'
+
 import {
   BrowserRouter as Router,
   Route,
@@ -27,6 +29,7 @@ function App() {
             <Route exact path='/' element={<Homepage />}></Route>
             <Route exact path='/architecture' element={<Architecture />}></Route>
             <Route exact path='/construction' element={<Construction />}></Route>
+            <Route exact path='/calculation' element={<Calculationpage />}></Route>
           </Routes>
         </div>
       </ScrollToTop>

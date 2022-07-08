@@ -6,6 +6,8 @@ import Landingpage2 from '../components/landingpage2';
 import Projects from '../components/projects';
 import Footer from '../components/footer';
 import Contact from '../components/contact';
+import Worthask from '../components/worthask';
+
 
 
 
@@ -16,7 +18,8 @@ import Contact from '../components/contact';
 const Homepage = () => {
     return (
         <div className="sevices">
-            <Landingpage2 />
+            <Worthask/>
+            {/* <Landingpage2 /> */}
             <Whyus />
             <Services />
             <Projects />
