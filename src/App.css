@@ -202,6 +202,44 @@
 
 }
 
+/* Individual Category page */
+
+
+.categorydatacontainer{
+  background-color: #1b2653;
+  
+}
+
+
+.categorydatacontainer .texts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color:white;
+  height:40vh;
+
+}
+
+.categorydatacontainer .texts h1{
+  font-family: Mulish;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding:20px;
+}
+
+.categorydatacontainer .texts p{
+  font-family: Mulish;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  width:50%;
+  padding:20px;
+  border-left:1px solid #55608d;
+
+
+}
+
 /* Why us */
 
 

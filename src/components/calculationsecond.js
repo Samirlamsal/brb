@@ -36,7 +36,7 @@ const Calculationsecond = () =>{
                         <div data-aos="fade-down" key={key} className='pcard'>
 
                             <div className='image'>
-                                <a href="#"><img src={categories.image} /></a>
+                                <a href="/categ"><img src={categories.image} /></a>
                             </div>
                             <div className='pcarddata'>
                                 <h2>{categories.title}</h2>

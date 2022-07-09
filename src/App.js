@@ -13,6 +13,8 @@ import { useEffect } from 'react';
 import Architecture from './pages/architecture';
 import Construction from './pages/construction';
 import ScrollToTop from "./components/scrolltotop";
+import Categorydata from "./pages/categorydata";
+
 
 
 
@@ -30,6 +32,7 @@ function App() {
             <Route exact path='/architecture' element={<Architecture />}></Route>
             <Route exact path='/construction' element={<Construction />}></Route>
             <Route exact path='/calculation' element={<Calculationpage />}></Route>
+            <Route exact path='/categ' element={<Categorydata />}></Route>
           </Routes>
         </div>
       </ScrollToTop>
