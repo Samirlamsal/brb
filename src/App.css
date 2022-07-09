@@ -206,12 +206,13 @@
 
 
 .categorydatacontainer{
-  background-color: #1b2653;
+  
   
 }
 
 
 .categorydatacontainer .texts{
+  background-color: #1b2653;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -219,6 +220,7 @@
   flex-wrap: wrap;
   color:white;
   height:40vh;
+  padding-bottom: 50px;
 
 }
 
@@ -239,6 +241,84 @@
 
 
 }
+
+
+.categorydatacontainer .togglecontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom:60px;
+}
+
+.categorydatacontainer .toggle{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  background-color: #1c3988;
+}
+
+.categorydatacontainer .togglecard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:270px;
+  color:white;
+  padding:5px;
+
+}
+
+.categorydatacontainer .togglecard:hover{
+  cursor: pointer;
+}
+
+.categorydatacontainer .togglecard .icon{
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.categorydatacontainer .togglecard:nth-child(2){
+  border-right:1px solid #374d86;
+  border-left:1px solid #374d86;
+
+  
+}
+
+.categorydatacontainer .togglecard:nth-child(3){
+  border-right:1px solid #374d86;
+
+  
+}
+
+.categorydatacontainer .togglecard .data{
+  width:70%;
+
+}
+
+.categorydatacontainer .togglecard h1{
+  font-family: Mulish;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.categorydatacontainer .togglecard p{
+  font-family: Mulish;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+
+.clickedcategory h1, p{
+  text-align: center;
+  font-family: Mulish;
+}
+
 
 /* Why us */
 
